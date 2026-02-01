@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Interactivo - Felipe Acuña</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">FA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="theme-toggle" class="btn btn-outline-secondary btn-sm">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center py-5 bg-light" id="resumen">
+        <div class="container">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQE3ZEfaUMehsg/profile-displayphoto-shrink_800_800/B4EZYckmvCHUAg-/0/1744236080862?e=1771459200&v=beta&t=TmVWPH2CRrgFFUQ13GhRye-KbXuhe0yDfirUu0qT5iA" alt="Felipe Acuña" class="rounded-circle mb-3 shadow-lg profile-img">
+            <h1 class="display-4 fw-bold">Felipe Andrés Acuña Romero</h1>
+            <p class="lead text-muted">Sociólogo | Customer Experience | Data Analytics</p>
+            <div class="d-flex justify-content-center gap-3 mb-4">
+                <a href="mailto:felipeacuna.ro@gmail.com" class="text-dark"><i class="fas fa-envelope fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/felipe-acuna-r" target="_blank" class="text-dark"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="https://www.github.com/felipeacuna" target="_blank" class="text-dark"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+            <p class="mx-auto" style="max-width: 700px;">
+                Soy Sociólogo de la Universidad de Concepción con más de 10 años colaborando con grandes empresas a mejorar la experiencia de sus clientes y socios mediante proyectos de investigación y mejora continua. Trabajo enfocado en impactar positivamente a las personas y a indicadores clave a través de comunicación estratégica y uso de tecnología.
+            </p>
+        </div>
+    </header>
+
+    <section id="experiencia" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 reveal">Experiencia Laboral</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-6">
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card shadow-sm border-0 d-flex align-items-center justify-content-center text-center p-4">
+                            <i class="fas fa-users-cog fa-3x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">Líder de Experiencia y Satisfacción de Clientes</h4>
+                            <h5 class="text-secondary">Komatsu Chile</h5>
+                            <p class="text-muted">2025 - Actual</p>
+                            <span class="badge bg-primary">Click para más detalles</span>
+                        </div>
+                        <div class="flip-card-back card shadow-sm border-0 p-4 bg-dark text-white overflow-auto">
+                            <h5 class="fw-bold mb-3">Mi rol en la compañía:</h5>
+                            <ul class="small text-start">
+                                <li>En Komatsu buscamos ganarnos la confianza de nuestros clientes superando sus expectativas.</li>
+                                <li>Contar con un sistema de escucha de Voz del Cliente de exelencia nos permite relacionarnos de manera adecuada con ellos.</li>
+                                <li>Disponibilizar información clave a nuestros equipos, nos permite colaborar de manera efectiva.</li>
+                                <li>Trabajo colaborando con nuestros equipos a dar un mejor servicio.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-6">
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card shadow-sm border-0 d-flex align-items-center justify-content-center text-center p-4">
+                            <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">Jefe de Análisis de Experiencia</h4>
+                            <h5 class="text-secondary">HDI Seguros</h5>
+                            <p class="text-muted">2021 - 2024</p>
+                            <span class="badge bg-primary">Click para más detalles</span>
+                        </div>
+                        <div class="flip-card-back card shadow-sm border-0 p-4 bg-primary text-white overflow-auto">
+                            <h5 class="fw-bold mb-3">Logros principales:</h5>
+                            <ul class="small text-start">
+                                <li>Liderazgo de equipos multidisciplinarios para mejora de NPS (+10 pts anuales).</li>
+                                <li>Implementación de paneles con <strong>Power BI y SQL</strong> para seguimiento de KPIs.</li>
+                                <li>Reducción del 50% en la prevalencia de reclamos críticos.</li>
+                                <li>Desarollo de sistema de escucha de la Voz del Cliente en más de 10 puntos de contacto.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card shadow-sm border-0 d-flex align-items-center justify-content-center text-center p-4">
+                            <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">Coordinador de Proyectos</h4>
+                            <h5 class="text-secondary">Impacto Real Consultores</h5>
+                            <p class="text-muted">2016 - 2019</p>
+                            <span class="badge bg-primary">Click para más detalles</span>
+                        </div>
+                        <div class="flip-card-back card shadow-sm border-0 p-4 bg-primary text-white overflow-auto">
+                            <h5 class="fw-bold mb-3">Logros principales:</h5>
+                            <ul class="small text-start">
+                                <li>Gestión de más de 30 proyectos de evaluación de impacto para banca y retail.</li>
+                                <li>Relacionamiento estratégico con más de 20 clientes corporativos.</li>
+                                <li>Detección de brechas mediante metodologías cualitativas y cuantitativas.</li>
+                                <li>Desarrollo de planes de acción basados en datos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-md-6">
+                <div class="flip-card reveal">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front card shadow-sm border-0 d-flex align-items-center justify-content-center text-center p-4">
+                            <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">Entrevistador en terreno</h4>
+                            <h5 class="text-secondary">MIDE UC </h5>
+                            <p class="text-muted">2014</p>
+                            <span class="badge bg-primary">Click para más detalles</span>
+                        </div>
+                        <div class="flip-card-back card shadow-sm border-0 p-4 bg-primary text-white overflow-auto">
+                            <h5 class="fw-bold mb-3">Logros principales:</h5>
+                            <ul class="small text-start">
+                                <li>Apadronamiento sectorial en comunas de Santiago.</li>
+                                <li>Aplicación de entrevistas en terreno.</li>
+                                <li>Validación e ingreso de datos en sistemas de la OCDE.</li>
+                                <li>Participación en proyecto PIAAC - Programa para la Evaluación Internacional de las Competencias de los Adultos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="formacion" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 reveal">Formación Académica</h2>
+            <ul class="list-group list-group-flush shadow-sm rounded">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Sociólogo - Universidad de Concepción <span>2017</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Diplomado Ciencia de Datos - Pontificia Universidad Católica de Chile <span>2025</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Diplomado en Diseño y Gestión Ágil de Proyectos - Universidad de Playa Ancha <span>2025</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Diplomado en Crecimiento Digital de Negocios y Marca - Universidad de Playa Ancha <span>2024</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Análista Desarrollador de Aplicaciones - SFIA Foundation <span>2018</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card p-4 shadow-sm reveal">
+                        <h3 class="text-center mb-4">¡Hablemos!</h3>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+                                <div id="emailError" class="text-danger small mt-1" style="display:none;">Por favor ingresa un correo válido.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 text-muted">
+        <small>&copy; 2026 Felipe Acuña Romero. Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
